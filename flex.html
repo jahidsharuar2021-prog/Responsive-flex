@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive flexh</title>
+    <style>
+        .box-container{
+            display: flex;
+            gap: 30px;
+             
+        }
+        .box{
+            background-color: teal;
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+        }
+        .container{
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .item{
+            width: 100px;
+            
+            padding: 10px;
+            background-color: tomato;
+        }
+        @media screen and (max-width:576px){
+            .box-container{
+            flex-direction: column;
+            }
+            .item{
+            width: 100%;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <h2>lets explore flex</h2>
+    <div class="box-container">
+    <div class="box">
+        <h3>box-1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique dolore facilis minima enim, qui doloribus doloremque mollitia perferendis quia, beatae fugit adipisci nulla voluptas alias praesentium temporibus consequuntur maxime illo dolorem deserunt vel ipsam. Sint repellat labore cumque nam eaque magni amet, sequi assumenda dolor atque consequuntur minima, delectus enim velit magnam possimus! Eius explicabo nostrum ab ut repudiandae vel.</p>
+    </div>
+    <div class="box">
+        <h3>box-2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique dolore facilis minima enim, qui doloribus doloremque mollitia perferendis quia, beatae fugit adipisci nulla voluptas alias praesentium temporibus consequuntur maxime illo dolorem deserunt vel ipsam. Sint repellat labore cumque nam eaque magni amet, sequi assumenda dolor atque consequuntur minima, delectus enim velit magnam possimus! Eius explicabo nostrum ab ut repudiandae vel.</p>
+    </div>
+    </div>
+    <div class="container">
+        <div class="item">box1</div>
+        <div class="item">box2</div>
+        <div class="item">box3</div>
+        <div class="item">box4</div>
+        <div class="item">box5</div>
+        <div class="item">box6</div>
+        <div class="item">box7</div>
+        <div class="item">box8</div>
+        <div class="item">box9</div>
+        <div class="item">box10</div>
+        <div class="item">box11</div>
+        <div class="item">box12</div>
+        <div class="item">box13</div>
+        <div class="item">box14</div>
+        <div class="item">box15</div>
+        <div class="item">box16</div>
+        <div class="item">box17</div>
+        <div class="item">box18</div>
+        <div class="item">box19</div>
+        <div class="item">box20</div>
+    </div>
+</body>
+</html>
