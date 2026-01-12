@@ -1,0 +1,33 @@
+.container>*{
+border: 3px solid gold;
+background-color: blanchedalmond;
+padding: 30px;
+}
+header{
+    grid-area: header;
+}
+nav{
+    grid-area: nav;
+}
+main{
+    grid-area: main;
+}
+#side-bar{
+    grid-area: sidebar;
+}
+#advertise{
+    grid-area: Advertise;
+}
+footer{
+    grid-area: footer;
+}
+.container{
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+    "header header header header"
+    "nav main main sidebar"
+    "nav main main Advertise"
+    "footer footer footer footer"
+}
+
